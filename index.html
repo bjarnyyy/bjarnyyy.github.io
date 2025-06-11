@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Economische Links</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showUitleg(message) {
+      alert(message);
+    }
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Economische Links</h1>
+
+    <div class="link-block">
+      <a href="https://www.tijd.be/markten-live/wisselkoersen.html" target="_blank">
+        <button>Wisselkoersen nu</button>
+      </a>
+    </div>
+
+    <div class="link-block">
+      <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.nl.html" target="_blank">
+        <button>Wisselkoersen verleden</button>
+      </a>
+    </div>
+
+    <div class="link-block">
+      <a href="https://stat.nbb.be/" target="_blank">
+        <button>Nominaal en reële bbp</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('Stat.nbb.be – nationale rekeningen – kw&jaaragg –  kw&jaaraggr – bruto toegevoegde waarde per bedrijfstak (lopende prijzen voor nominaal/kettingeuro’s voor reële en let op! Jaarlijks')">uitleg</button>
+    </div>
+
+    <div class="link-block">
+      <a href="https://ec.europa.eu/eurostat" target="_blank">
+        <button>BBP per capita</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('Web - main - data - database')">uitleg</button>
+    </div>
+
+    <div class="link-block">
+      <a href="https://stat.be" target="_blank">
+        <button>evolutie kapitaalgoederenvoorraad</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('Stat.nbb.be - nationale rekeningen – kapitaalgoederenvoorraad\nLet op! In miljoenen kettingeuro’s')">uitleg</button>
+    </div>
+
+    <div class="link-block">
+      <a href="https://statbel.fgov.be/nl" target="_blank">
+        <button>bevolkingspiramide</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('Statbel.fgov.be/nl – Thema’s Werk&Opleiding – Arbeidsmarkt – Werkgelegenheid en werkloosheid\n(Let op! Met de totale bevolking wordt daar bedoeld de bevolking op beroepsactieve leeftijd. Als je de echte totale bevolking wil weten moet je zoeken bij Home!)')">uitleg</button>
+    </div>
+
+    <div class="link-block">
+      <a href="https://statbel.fgov.be/nl" target="_blank">
+        <button>bevolkingspiramide</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('Statbel – bevolking – structuur van de bevolking – cijfers - leeftijdspiramide')">uitleg</button>
+    </div>
+
+    <div class="link-block">
+      <a href="https://www.vdab.be" target="_blank">
+        <button>Werkgelegenheidsgraad andere landen</button>
+      </a>
+      <button class="uitleg" onclick="showUitleg('VDAB – Vlaanderen binnen Europa – werkzaamheid - leeftijd')">uitleg</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
