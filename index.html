@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Bjarny's Website</title>
+  <title>Bjarny's Schoolvakken</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .vakken {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px auto;
+      max-width: 900px;
+    }
+    .vak {
+      background: white;
+      border: 2px solid #4a90e2;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .vak:hover {
+      transform: scale(1.05);
+      background: #eaf3ff;
+    }
+    .vak a {
+      display: inline-block;
+      background: #4a90e2;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: background 0.2s;
+    }
+    .vak a:hover {
+      background: #357abd;
+    }
+    footer {
+      margin-top: 30px;
+      background: #222;
+      color: white;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1></h1>
+  <header>
+    <h1>Bjarny's Schoolvakken</h1>
+    <p>Klik op een vak om meer te zien</p>
+  </header>
+
+  <div class="vakken">
+    <div class="vak">
+      <h2>Economie</h2>
+      <a href="economie.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Nederlands</h2>
+      <a href="nederlands.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Godsdienst</h2>
+      <a href="godsdienst.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Duits</h2>
+      <a href="duits.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Frans</h2>
+      <a href="frans.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Engels</h2>
+      <a href="engels.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Geschiedenis</h2>
+      <a href="geschiedenis.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Aardrijkskunde</h2>
+      <a href="aardrijkskunde.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Wiskunde</h2>
+      <a href="wiskunde.html">Bekijk</a>
+    </div>
+    <div class="vak">
+      <h2>Natuurwetenschappen</h2>
+      <a href="natuurwetenschappen.html">Bekijk</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bjarny's Schoolproject</p>
+  </footer>
 </body>
 </html>
